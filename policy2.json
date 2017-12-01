@@ -1,0 +1,27 @@
+{ 
+    "Policy1":  [
+        {
+            "action": "Stir",
+            "duration": 2.0,
+            "movespeed": 0.1
+        },
+        {
+            "action": "Pour",
+            "duration": 1.2,
+            "movespeed": 0.02
+         },
+        {
+            "action": "Stir",
+            "duration": 1.0,
+            "movespeed": 0.124
+        },
+        {
+            "constraints": [ 
+          {
+              "maxduration": 5.0,
+              "enforceorder": "TRUE"
+          }
+        ] 
+      }
+    ]
+}
